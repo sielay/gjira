@@ -1,0 +1,23 @@
+{
+  "name": "gjira",
+  "version": "0.1.0",
+  "description": "Like git-cz but linking git and JIRA",
+  "main": "index.js",
+  "bin": {
+    "gjira": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["git", "jira", "workflow", "cli"],
+  "author": "lukaszsielski@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.3",
+    "jira-client": "^6.21.1",
+    "minimist": "^1.2.5",
+    "simple-git": "^2.31.0"
+  }
+}
