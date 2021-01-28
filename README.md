@@ -1,5 +1,7 @@
 Simple tool to make easy to do fast PRs based on issues in JIRA
 
+![Gjira](gjira.gif)
+
 ### Install
 
 ```
@@ -16,6 +18,8 @@ npm i -g gjira
 
 Run `gjira configure` and answer questions there.
 
+You JIRA credentials are saved plain text in your HOME directory.
+
 ### Create branch 
 
 Command `gjira PROJECT-123` will
@@ -31,5 +35,7 @@ Command `gjira PROJECT-123` will
  * Stage your changes
  * Commit with JIRA message
  * Push to origin
+
+
 
 MIT
